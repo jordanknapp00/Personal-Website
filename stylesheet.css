@@ -1,0 +1,252 @@
+/* Styling specific for non-phone screens (will apply to tablets and regular computer screens */
+@media only screen and (min-width:750px) {
+    nav li {
+        float:left;
+    }
+    
+    header h1 {
+        color:white;
+        font-size:425%;
+        padding-left:25px;
+    }
+
+    article h1 {
+        line-height:.5em;
+    }
+    
+    .home img {
+        float:right;
+        padding-right:10px;
+        padding-bottom:10px;
+        max-width:35vw;
+        height:auto;
+    }
+    
+    .home p {
+        max-width:45%;
+    }
+
+    table, td, th {
+        border:1px solid #696969;
+        padding:5px;
+    }
+
+    .resume-right {
+        float:right;
+    }
+
+    .contact {
+        text-align:right;
+        float:left;
+    }
+
+    .contact input[type=submit] {
+        width:315px;
+        float:right;
+    }
+
+    .contact input[type=text], input[type=email], textarea {
+        width:300px;
+        resize:vertical;
+    }
+
+    .small-screen {
+        display:none;
+    }
+}
+
+/* Styling only for desktop/laptop computers */
+@media only screen and (min-width:811px) {
+    .resume {
+        padding-right:33%;
+    }
+}
+
+/* Styling for tablets */
+@media only screen and (max-width:811px) {
+    .home img {
+        float:right;
+        padding-right:10px;
+        padding-bottom:10px;
+        max-width:45vw;
+        height:auto;
+    }
+
+    .resume {
+        padding-right:10%;
+    }
+}
+
+/* Styling just for phone screens */
+@media only screen and (max-width:749px) {
+    header h1 {
+        color:white;
+        font-size:250%;
+        text-align:center;
+    }
+
+    .home img {
+        float:inline-start;
+        max-width:100%;
+        height:auto;
+    }
+
+    .resume {
+        padding-right:10px;
+    }
+
+    .resume-right {
+        display:block;
+        text-align:right;
+    }
+
+    table, td, th {
+        border:2px solid black;
+        padding:3px;
+    }
+
+    .contact input, .contact textarea {
+        box-sizing:border-box;
+        float:inline-start;
+        width:89vw;
+    }
+
+    .big-screen {
+        display:none;
+    }
+}
+
+/* General styling that applies to all devices */
+
+body {
+    background-color:#EEEEEE;
+    margin:0;
+}
+
+header {
+    position:relative;
+    background-color:#6495ed;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100%;
+}
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:dimgray;
+}
+
+nav li a {
+    display:block;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 14px 32px;
+    text-decoration:none;
+}
+
+nav li a.active {
+    background-color:gainsboro;
+    color:dimgray;
+}
+
+nav li a:hover {
+    background-color:white;
+    color:dimgray;
+}
+
+h1, h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section > h2 {
+    padding-left:10px;
+}
+
+article {
+    padding-left:10px;
+}
+
+article p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-right:10px;
+}
+
+article h1 {
+    font-size:225%;
+}
+
+.resume-head p {
+    text-align:center;
+    font-size:larger;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.resume-head b {
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+
+.resume {
+    padding-left:10px;
+}
+
+.resume h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.resume ul li {
+    list-style-type:circle;
+}
+
+.resume ul ul li {
+    list-style-type:square;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+    width:95%;
+}
+
+th {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+td {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.table-center {
+    text-align:center;
+}
+
+.contact {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+}
+
+.contact label {
+    padding-right:25px;
+}
+
+.contact textarea {
+    vertical-align:top;
+    font-size:small;
+}
+
+.contact input[type=text], input[type=email], textarea {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+.contact input[type=submit] {
+    font-family:Arial, Helvetica, sans-serif;
+}
