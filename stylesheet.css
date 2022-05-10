@@ -31,10 +31,6 @@
         padding:5px;
     }
 
-    .resume-right {
-        float:right;
-    }
-
     .contact {
         text-align:right;
         float:left;
@@ -93,11 +89,6 @@
 
     .resume {
         padding-right:10px;
-    }
-
-    .resume-right {
-        display:block;
-        text-align:right;
     }
 
     table, td, th {
