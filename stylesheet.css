@@ -19,7 +19,11 @@
     }
 
     h1 {
-        line-height:.5em;
+        line-height: .5em;
+    }
+
+    h2 {
+        line-height: .75em;
     }
 
     .home img {
@@ -65,6 +69,10 @@
         padding-right: 0;
         max-width: 45vw;
         height: auto;
+    }
+
+    h2 {
+        line-height:1em;
     }
 
     section {
@@ -161,7 +169,7 @@ h1 {
 }
 
 h2 {
-    font-size: 175%;
+    font-size: 200%;
 }
 
 h1, h2 {
