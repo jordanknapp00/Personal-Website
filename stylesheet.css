@@ -4,9 +4,7 @@
     
     
 
-    article h1 {
-        line-height:.5em;
-    }
+    
 
     table, td, th {
         border:1px solid #696969;
@@ -61,11 +59,6 @@
         padding-right:10px;
     }
 
-    table, td, th {
-        border:2px solid black;
-        padding:3px;
-    }
-
     .contact input, .contact textarea {
         box-sizing:border-box;
         float:inline-start;
@@ -86,59 +79,8 @@ article {
 }
 
 article p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    
     padding-right:10px;
-}
-
-article h1 {
-    font-size:225%;
-}
-
-.resume-head p {
-    text-align:center;
-    font-size:larger;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.resume-head b {
-    font-family:'Times New Roman', Times, serif;
-    font-size:x-large;
-}
-
-.resume {
-    padding-left:10px;
-}
-
-.resume h2 {
-    font-family:'Times New Roman', Times, serif;
-    text-decoration: underline;
-}
-
-.resume ul li {
-    list-style-type:circle;
-}
-
-.resume ul ul li {
-    list-style-type:square;
-}
-
-table {
-    margin-left:auto;
-    margin-right:auto;
-    border-collapse:collapse;
-    width:95%;
-}
-
-th {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-td {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.table-center {
-    text-align:center;
 }
 
 .contact {
@@ -172,6 +114,7 @@ td {
     header h1 {
         color: white;
         font-size: 425%;
+        line-height:.8;
     }
 
     nav {
@@ -184,6 +127,10 @@ td {
 
     nav ul li {
         float: left;
+    }
+
+    h1 {
+        line-height:.5em;
     }
 
     .home img {
@@ -297,8 +244,68 @@ nav ul li a:hover {
 body {
     margin: 0;
     background-color: #EEEEEE;
+    line-height:1.4;
+}
+
+h1 {
+    font-size:225%;
 }
 
 h1, h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.resume-head p {
+    text-align:center;
+    font-size:larger;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.resume-head b {
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+
+.resume {
+    padding-left:10px;
+}
+
+.resume h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.resume ul li {
+    list-style-type:circle;
+}
+
+.resume ul ul li {
+    list-style-type:square;
+}
+
+table, td, th {
+    border:2px solid black;
+    padding:3px;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+}
+
+th {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+td {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.table-center {
+    text-align:center;
 }
