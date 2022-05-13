@@ -170,135 +170,135 @@ td {
 /* Styling specific to non-phone screens (will apply to tablets and regular computer screens */
 @media only screen and (min-width:750px) {
     header h1 {
-        color:white;
-        font-size:425%;
+        color: white;
+        font-size: 425%;
     }
 
     nav {
-        line-height:.75em;
+        line-height: .75em;
     }
 
     nav ul {
-        display:inline-block;
+        display: inline-block;
     }
 
     nav ul li {
-        float:left;
+        float: left;
     }
 
     .home img {
-        float:right;
-        padding-right:10px;
-        padding-bottom:10px;
-        max-width:35vw;
-        height:auto;
+        float: right;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        max-width: 35vw;
+        height: auto;
     }
     
     .home p {
-        max-width:45%;
+        max-width: 45%;
     }
 }
 
 /* Styling only for desktop/laptop computers */
 @media only screen and (min-width:811px) {
     section {
-        margin-left:16.5%;
-        margin-right:16.5%;
+        margin-left: 16.5%;
+        margin-right: 16.5%;
     }
 }
 
 /* Styling for tablets */
 @media only screen and (max-width:811px) {
     .home img {
-        float:right;
-        padding-right:10px;
-        padding-bottom:10px;
-        max-width:45vw;
-        height:auto;
+        float: right;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        max-width: 45vw;
+        height: auto;
     }
 
     section {
-        margin-left:5%;
-        margin-right:5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     section .home {
-        margin:0;
-        padding:10px;
+        margin: 0;
+        padding: 10px;
     }
 }
 
 /* Styling just for phone screens */
 @media only screen and (max-width:749px) {
     header h1 {
-        color:white;
-        font-size:250%;
+        color: white;
+        font-size: 250%;
     }
 
     .home figure {
-        float:inline-start;
-        margin:10px;
+        float: inline-start;
+        margin: 10px;
     }
 
     .home img {
-        max-width:100%;
-        height:auto;
+        max-width: 100%;
+        height: auto;
     }
 
     section {
-        margin:0;
-        padding:10px;
+        margin: 0;
+        padding: 10px;
     }
 }
 
 /* General styling that applies to all devices */
 
 header {
-    position:relative;
-    background-color:#6495ed;
-    padding-top:10px;
-    padding-bottom:10px;
-    width:100%;
-    text-align:center;
+    position: relative;
+    background-color: #6495ed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 nav {
-    text-align:center;
-    width:100%;
-    background-color:dimgray;
+    text-align: center;
+    width: 100%;
+    background-color: dimgray;
 }
 
 nav ul {
-    list-style:none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 nav ul li a {
     display:block;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align:center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     padding: 14px 32px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 nav ul li a.active {
-    background-color:gainsboro;
-    color:dimgray;
+    background-color: gainsboro;
+    color: dimgray;
 }
 
 nav ul li a:hover {
-    background-color:white;
-    color:dimgray;
+    background-color: white;
+    color: dimgray;
 }
 
 body {
-    margin:0;
-    background-color:#EEEEEE;
+    margin: 0;
+    background-color: #EEEEEE;
 }
 
 h1, h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
