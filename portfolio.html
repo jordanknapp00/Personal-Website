@@ -20,121 +20,27 @@
         </nav>
         <main>
             <section>
-                <article>
-                    <h1>Personal Projects</h1>
-                        <p>These are some of the various projects I've worked on in my spare time over the years. The
-                            tables below contain information about each project, as well as download links. Links to
-                            <a href="https://github.com/jordanknapp00">my GitHub</a> are available for the major projects,
-                            while .zip downloads are available for all projects. Direct downloads for Java projects will
-                            include an executable .jar file.
-                        </p>
-                        <p>Note that the projects on GitHub do not follow any kind of branching scheme. I didn't use GitHub
-                            when developing these projects, and I didn't know about proper GitHub use when initially uploading
-                            the projects to GitHub. I'm currently taking a software engineering course, and I now know how to
-                            use a develop branch, release branches, feature branches, etc. But I was not able to employ that
-                            knowledge when creating the repositories for these personal projects.
-                        </p>
-                </article>
+                <h1>Personal Projects</h1>
+                    <p>These are some of the various projects I've worked on in my spare time over the years. The
+                        tables below contain information about each project, as well as download links. Links to
+                        <a href="https://github.com/jordanknapp00">my GitHub</a> are available for the major projects,
+                        while .zip downloads are available for all projects. Direct downloads for Java projects will
+                        include an executable .jar file.
+                    </p>
+                    <p>Note that the projects on GitHub do not follow any kind of branching scheme. I didn't use GitHub
+                        when developing these projects, and I didn't know about proper GitHub use when initially uploading
+                        the projects to GitHub. I'm currently taking a software engineering course, and I now know how to
+                        use a develop branch, release branches, feature branches, etc. But I was not able to employ that
+                        knowledge when creating the repositories for these personal projects.
+                    </p>
             </section>
             <section>
-                <article>
-                    <h2>Major Projects</h2>
-                    <p>These are the major projects, the ones that took a significant amount of time. They could all be
-                        described as fully-featured programs, meaning they aren't just quick solutions to a problem.</p>
-                </article>
-                <!-- Major Projects table for larger screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Date</th>
-                        <th>Description</th>
-                        <th>Download</th>
-                    </tr>
-                    <tr>
-                        <td>Smash Bros. Character Picker</td>
-                        <td class="table-center">Java</td>
-                        <td class="table-center">2019 to 2022</td>
-                        <td>A program which selects random matchups for the game <i>Super Smash Bros.</i> A tier
-                            list, defined in a .txt file, is used to determine fair matchups. Matches with up to 8
-                            players are supported. There are systems to prevent duplicate matchups, as well as a
-                            built-in soundboard and statistic-tracking system. Other settings are also available to
-                            customize the experience. More details can be found in the README file on GitHub.
-                            <br><br>
-                            This was my first time designing a program that is not text-based, and as a result, I
-                            had to teach myself how to use the Java Swing library. The result is the largest and most
-                            complex project I've worked on, school project or not.
-                            <br><br>
-                            <b>Note: </b> You can see older versions of this project on GitHub as well, to show the
-                            evolution of the program over the couple years I've worked on it. Every major release has
-                            been tagged on GitHub. Older versions can be downloaded directly
-                            <a href="smashold.html">here</a> or using the link to the right.
-                        </td>
-                        <td class="table-center">
-                            <a href="https://github.com/jordanknapp00/Smash-Character-Picker">GitHub</a><br><br>
-                            <a href="file/proj/Smash-Character-Picker-10.1.zip" download>.zip file</a><br><br>
-                            <a href="smashold.html">Older versions</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>TV Show Episode Picker</td>
-                        <td class="table-center">Java</td>
-                        <td class="table-center">2020</td>
-                        <td>Built on the framework of the Smash Bros. Picker, this program selects a random episode
-                            of a TV show. I originally built it to select episodes of <i>Seinfeld</i>, which is why
-                            the program icon is a picture of Jerry Seinfeld. Nonetheless, the episodes for a show are
-                            defined in a .txt file, and thus any show can be used. More details can be found in the
-                            README file on GitHub.
-                        </td>
-                        <td class="table-center">
-                            <a href="https://github.com/jordanknapp00/TV-Show-Episode-Picker">GitHub</a><br><br>
-                            <a href="file/proj/TV-Show-Episode-Picker.zip" download>.zip file</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>This Website</td>
-                        <td class="table-center">HTML/CSS/PHP</td>
-                        <td class="table-center">2022</td>
-                        <td>My personal website. The one you're currently on! I had to re-teach myself HTML and CSS
-                            in order to put it together. I also had to learn a tiny bit of PHP to do the contact
-                            page.
-                            <br><br>
-                            Note that the .zip download will <i>only</i> contain the .html, .css, and .php files that make
-                            up the site, as well as the images. In other words, the project .zips and the resume files are
-                            not included, to reduce the size of the download.
-                        </td>
-                        <td class="table-center">
-                            <a href="https://github.com/jordanknapp00/Personal-Website">GitHub</a><br><br>
-                            <a href="file/proj/mysite.zip" download>.zip file</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Dungeon Generator (AKA dungen)</td>
-                        <td class="table-center">C#</td>
-                        <td class="table-center">April 2022</td>
-                        <td>A program that generates simple dungeons in the style of
-                            <a href="https://en.wikipedia.org/wiki/Rogue_(video_game)">Rogue</a> (1980). The algorithm is
-                            based on one written by my game development professor, which itself was based on the algorithm
-                            used in Rogue. I've modified the algorithm a little bit and added the ability to customize the
-                            dungeon via command line parameters. I've also added some object-oriented features to the program.
-                            I wrote this project attempting to use good software engineering practices (particularly the use
-                            of develop and feature branches), in order to build that up as a habit. I also wrote it as a test
-                            of my C# skills outside the context of Unity development.
-                            <br><br>
-                            For details on how to use it, see the README on GitHub, or the one included with the download.
-                            <br><br>
-                            <b>This program is text-based, designed to be run from the command line.</b>
-                        </td>
-                        <td class="table-center">
-                            <a href="https://github.com/jordanknapp00/Dungeon-Generator">GitHub</a><br><br>
-                            <a href="file/proj/dungen.zip" download>Executable</a><br><br>
-                            <a href="file/proj/dungen-src.zip" download>Source code .zip</a>
-                        </td>
-                    </tr>
-                </table>
-                <!-- Major Projects tables for small screens -->
-                <!-- Smash Character Picker small screen table -->
-                <table class="small-screen">
+                <h2>Major Projects</h2>
+                <p>These are the major projects, the ones that took a significant amount of time. They could all be
+                    described as fully-featured programs, meaning they aren't just quick solutions to a problem.</p>
+                <!-- Major Projects tables: -->
+                <!-- Smash Character Picker table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Smash Bros. Character Picker</td>
@@ -174,9 +80,9 @@
                         </td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- TV Show Episode Picker small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- TV Show Episode Picker table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">TV Show Episode Picker</td>
@@ -206,9 +112,9 @@
                         </td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Website small screen table-->
-                <table class="small-screen">
+                <br>
+                <!-- Website table-->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Personal Website</td>
@@ -240,9 +146,9 @@
                         </td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Dungeon Generator small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Dungeon Generator table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Dungeon Generator (AKA dungen)</td>
@@ -282,87 +188,15 @@
                 </table>
             </section>
             <section>
-                <article>
-                    <h2>Minor Projects</h2>
-                    <p>These are the minor projects, which are mostly just small programs, not as fully-featured as the
-                        major projects. These are mostly just text-based programs that quickly solve a problem, test
-                        something, or otherwise do something simpler than the major projects. These are only available for
-                        .zip download, because they're not really important enough to warrant putting on GitHub.
-                    </p>
-                </article>
-                <!-- Minor Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Date</th>
-                        <th>Description</th>
-                        <th>Download</th>
-                    </tr>
-                    <tr>
-                        <td>Smash Character Picker Stats Viewer</td>
-                        <td class="table-center">Java</td>
-                        <td class="table-center">March 2022</td>
-                        <td>A simple program designed to read the statistics files generated by the Smash Character Picker. It
-                            allows for read-only access of the
-                            <span style="font-family:'Courier New', Courier, monospace">.sel</span> files used to store
-                            statistics tracked by the Smash Character Picker.
-                            <br><br>
-                            I created a GitHub page for this minor project so it could easily be linked with the Smash Character
-                            Picker itself.
-                        </td>
-                        <td class="table-center">
-                            <a href="https://github.com/jordanknapp00/Smash-Stats-Viewer">GitHub</a><br><br>
-                            <a href="file/proj/Smash-Stats-Viewer.zip" download>.zip file</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Monty Hall Simulator</td>
-                        <td class="table-center">Ruby</td>
-                        <td class="table-center">January 2021</td>
-                        <td>A simple, text-based program that simulates the 
-                            <a href="https://en.wikipedia.org/wiki/Monty_Hall_problem">Monty Hall problem</a>. It keeps
-                            track of overall winrate, as well as winrate when switching choice during a session of play.
-                            <br><br>
-                            <b>This program is text-based, designed to be run from the command line.</b>
-                        </td>
-                        <td class="table-center"><a href="file/proj/montyhall.zip" download>Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>Sorting Algorithms</td>
-                        <td class="table-center">Ruby</td>
-                        <td class="table-center">November 2020</td>
-                        <td>A collection of sorting algorithms I put together to practice for my algorimths class.
-                            Bubble sort, modified bubble sort, selection sort, insertion sort, merge sort, heapsort, and
-                            quicksort are included. Also included are two implementations for the maximum subarray
-                            problem, one of which is Kadane's algorithm.
-                            <br><br>
-                            <b>This program is designed to be run in the
-                            <span style="font-family:'Courier New', Courier, monospace">irb</span> REPL.</b>
-                        </td>
-                        <td class="table-center"><a href="file/proj/sortalgs.zip" download>Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>Rudimentary Game Engine (unfinished)</td>
-                        <td class="table-center">Java</td>
-                        <td class="table-center">June 2020 to August 2021</td>
-                        <td>An unfinished, 2D game engine that I made by following
-                            <a href="https://www.youtube.com/playlist?list=PLlrATfBNZ98eOOCk2fOFg7Qg5yoQfFAdf">this
-                                tutorial</a>. It was meant to power a simple role-playing game. Ultimately, I abandoned
-                                the project because I was unhappy with the quality of the tutorial. I instead decided to
-                                take a game programming course in my last semester at UMD.
-                                <br><br>
-                                The engine is only capable of displaying a single map, and having a single character
-                                walk around that map. The collision detection is also somewhat buggy. If this project
-                                were completed, or even in a state that might be called playable, it would be in the
-                                major projects category.
-                        </td>
-                        <td class="table-center"><a href="file/proj/Rudimentary-Game-Engine.zip" download>Download</a>
-                    </tr>
-                </table>
-                <!-- Minor Projects table for small screens -->
-                <!-- Smash Stats Viewer small screen table -->
-                <table class="small-screen">
+                <h2>Minor Projects</h2>
+                <p>These are the minor projects, which are mostly just small programs, not as fully-featured as the
+                    major projects. These are mostly just text-based programs that quickly solve a problem, test
+                    something, or otherwise do something simpler than the major projects. These are only available for
+                    .zip download, because they're not really important enough to warrant putting on GitHub.
+                </p>
+                <!-- Minor Projects tables: -->
+                <!-- Smash Stats Viewer table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Smash Character Picker Stats Viewer</td>
@@ -394,9 +228,9 @@
                         </td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Monty Hall Simulator small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Monty Hall Simulator table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Monty Hall Problem Simulator</td>
@@ -423,9 +257,9 @@
                         <td class="table-center"><a href="file/proj/montyhall.zip" download>Download</a></td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Algorithms small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Algorithms table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Sorting Algorithms</td>
@@ -454,9 +288,9 @@
                         <td class="table-center"><a href="file/proj/sortalgs.zip" download>Download</a></td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Game Engine small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Game Engine table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Rudimentary Game Engine</td>
@@ -490,53 +324,21 @@
                 </table>
             </section>
             <section>
-                <article>
-                    <h1>School Projects</h1>
-                    <p>This is a collection of the most useful/interesting/challenging school projects I've worked on.
-                        For convenience, they're broken up by course. A brief description, as well as a list of important
-                        skills I got from each project are listed.
-                        <br><br>
-                        Hosting school projects publicly on GitHub or any other site isn't allowed, so if any potential
-                        employers would like access to any or all of these projects,
-                        <a href="contact.html">send me an email</a>.
-                    </p>
-                </article>
+                <h1>School Projects</h1>
+                <p>This is a collection of the most useful/interesting/challenging school projects I've worked on.
+                    For convenience, they're broken up by course. A brief description, as well as a list of important
+                    skills I got from each project are listed.
+                    <br><br>
+                    Hosting school projects publicly on GitHub or any other site isn't allowed, so if any potential
+                    employers would like access to any or all of these projects,
+                    <a href="contact.html">send me an email</a>.
+                </p>
             </section>
             <section>
                 <h2>CMSC131: Object-Oriented Programming I (Fall 2018)</h2>
-                <!-- 131 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Poker Hand Evaluator</td>
-                        <td class="table-center">Java</td>
-                        <td>The function I had to implement for this program was an evaluator for hands of Poker.
-                            The GUI and underlying program design were provided by the instructor. The methods I
-                            wrote are responsible for evaluating the hands of the six players and determining what
-                            kind of hand (pair, straight, flush, etc.) they have.
-                        </td>
-                        <td>Basic programming logic. Control structures, looping, dealing with arrays, etc. This project
-                            basically tested your mastery of the basics of programming in Java.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Media Rental Manager</td>
-                        <td class="table-center">Java</td>
-                        <td>This program manages the inventory and customers of a media rental store, such as
-                            BlockBuster. Customers can have different plans which allow them to rent out and return
-                            both movies and albums.
-                        </td>
-                        <td>Object-oriented design. Use of inheritance, polymorphism, etc.</td>
-                    </tr>
-                </table>
-                <!-- 131 Projects table for small screens -->
+                <!-- 131 Projects tables: -->
                 <!-- Poker Hand Evaluator small screen table -->
-                <table class="small-screen">
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Poker Hand Evaluator</td>
@@ -560,9 +362,9 @@
                         </td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Media Rental Manager small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Media Rental Manager table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Media Rental Manager</td>
@@ -586,42 +388,12 @@
             </section>
             <section>
                 <h2>CMSC132: Object-Oriented Programming II (Spring 2019)</h2>
-                <!-- 132 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Linked List Implementation</td>
-                        <td class="table-center">Java</td>
-                        <td>An implementation of a singly-linked list using Java generics. Uses the
-                            <span style="font-family:'Courier New', Courier, monospace">Iterable</span> and
-                            <span style="font-family:'Courier New', Courier, monospace">Comparable</span> interfaces
-                            as well. Also included are some utility methods, such as deleting values within a range
-                            of indices and checking how many times a particular value appears in the list.
-                        </td>
-                        <td>Implementation of data structures and designing classes that conform to the requirements
-                            of particular interfaces.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Graph Implementation</td>
-                        <td class="table-center">Java</td>
-                        <td>Another data structure implementation using generics. This time, a graph, which is a
-                            much more complex data structure than a linked list.
-                        </td>
-                        <td>Implementation of data structures.</td>
-                    </tr>
-                </table>
-                <!-- 132 Projects table for small screens-->
-                <!-- Linked List Implementation small screen table -->
-                <table class="small-screen">
+                <!-- 132 Projects tables: -->
+                <!-- Linked List Implementation table -->
+                <table>
                     <tr>
                         <th>Name</th>
-                        <td class="table-center">Lined List Implementation</td>
+                        <td class="table-center">Linked List Implementation</td>
                     </tr>
                     <tr>
                         <th>Language</th>
@@ -643,9 +415,9 @@
                         </td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Graph Implementation small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Graph Implementation table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Graph Implementation</td>
@@ -668,66 +440,9 @@
             </section>
             <section>
                 <h2>CMSC216: Introduction to Computer Systems (Fall 2019)</h2>
-                <!-- 216 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Linked List Implementation II</td>
-                        <td class="table-center">C</td>
-                        <td>Another linked list implementation. This one is a doubly-linked list with a dummy head,
-                            and it was done in C rather than Java. This was my first major project that was not
-                            done in Java.
-                        </td>
-                        <td>Programming in C, implementation of data structures.</td>
-                    </tr>
-                    <tr>
-                        <td>Unix Filesystem Simulator</td>
-                        <td class="table-center">C</td>
-                        <td>A program which simulates a simplified version of the Unix filesystem. In this case, the
-                            filesystem is simply made up directories. In each directory, there can be files as well
-                            as additional directories. Various Unix commands are simulated, including
-                            <span style="font-family:'Courier New', Courier, monospace">touch</span>, 
-                            <span style="font-family:'Courier New', Courier, monospace">mkdir</span>, 
-                            <span style="font-family:'Courier New', Courier, monospace">cd</span>, 
-                            <span style="font-family:'Courier New', Courier, monospace">ls</span>, 
-                            <span style="font-family:'Courier New', Courier, monospace">pwd</span>, and 
-                            <span style="font-family:'Courier New', Courier, monospace">rm</span>.
-                            <br><br>
-                            I've included this project because it was by far one of the most challenging, but also
-                            one of the most rewarding projects I've had the experience of working on. It is still
-                            one of the most fully-featured programs I've worked on as a school project. And I
-                            learned a lot from it about both the C language and how Unix works.
-                        </td>
-                        <td>Advanced C programming, including memory management, pointers, structs, etc.</td>
-                    </tr>
-                    <tr>
-                        <td>Convering C code to MIPS Assembly</td>
-                        <td class="table-center">MIPS Assembly</td>
-                        <td>The goal of this project was to convert three C programs into MIPS Assembly. The first
-                            two programs are pretty basic, but the third involves a recursive function. This was my
-                            first experience with any assembly language, and I really enjoyed working with it.
-                        </td>
-                        <td>Assembly language (including function calls).</td>
-                    </tr>
-                    <tr>
-                        <td>pthreaded <span style="font-family:'Courier New', Courier, monospace">wc</span>
-                            Implementation</td>
-                        <td class="table-center">C</td>
-                        <td>A program similar to the Unix
-                            <span style="font-family:'Courier New', Courier, monospace">wc</span> utility, but
-                            using C pthreads to read several files simultaneously.
-                        </td>
-                        <td>Advanced C programming, including multithreading with pthreads.</td>
-                    </tr>
-                </table>
-                <!-- 216 Projects table for small screens -->
-                <!-- Linked List Implementation II small screen table -->
-                <table class="small-screen">
+                <!-- 216 Projects tables: -->
+                <!-- Linked List Implementation II table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Linked List Implementation II</td>
@@ -748,9 +463,9 @@
                         <td>Programming in C, implementation of data structures.</td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Unix Filesystem Simulator small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Unix Filesystem Simulator table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Unix Filesystem Simulator</td>
@@ -782,9 +497,9 @@
                         <td>Advanced C programming, including memory management, pointers, structs, etc.</td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- C to MIPS small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- C to MIPS table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Converting C code to MIPS Assembly</td>
@@ -805,9 +520,9 @@
                         <td>Assembly language (including function calls).</td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- pthreaded WC small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- pthreaded WC table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td>pthreaded <span style="font-family:'Courier New', Courier, monospace">wc</span>
@@ -832,44 +547,9 @@
             </section>
             <section>
                 <h2>CMSC330: Organization of Programming Languages (Fall 2020)</h2>
-                <!-- 330 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>WordNet</td>
-                        <td class="table-center">Ruby</td>
-                        <td>An implementation of a <a href="https://wordnet.princeton.edu/">WordNet</a> in Ruby. A
-                            WordNet is essentially a way of associating words and concepts. It is a database of
-                            language and the meanings of words. See the link for a more in-depth explanation.
-                        </td>
-                        <td>Quickly familiarizing myself with a topic I'd never heard of before (WordNets) while
-                            simultaneously learning a language I'd never used before (Ruby).
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>SmallC Lexer, Parser, and Interpreter</td>
-                        <td class="table-center">OCaml</td>
-                        <td>This project involved creating an interpreter for a simple language, SmallC. The lexer
-                            converts SmallC code into a sequence of tokens, while the parser converts the tokens
-                            into an Abstract Syntax Tree (AST). The interpreter will then produce the correct
-                            output of the program.
-                            <br><br>
-                            Compilers were briefly covered in the previous class, CMSC216, but this was my first
-                            time getting a hands-on look at programming langauges under the hood. This is one of my
-                            favorite school projects that I worked on, and it's also the project that finally gave
-                            me an appreciation for functional programming.
-                        </td>
-                        <td>Advanced functional programming and a deeper understanding of how compilers work.</td>
-                    </tr>
-                </table>
-                <!-- 330 Projects table for small screens -->
-                <!-- WordNet small screen table -->
-                <table class="small-screen">
+                <!-- 330 Projects tables: -->
+                <!-- WordNet table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">WordNet</td>
@@ -892,9 +572,9 @@
                         </td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- SmallC Lexer/Parser/Interpreter small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- SmallC Lexer/Parser/Interpreter table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">SmallC Lexer, Parser, and Interpreter</td>
@@ -924,50 +604,9 @@
             </section>
             <section>
                 <h2>CMSC433: Programming Language Technologies and Paradigms (Spring 2021)</h2>
-                <!-- 433 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Restaurant Simulation</td>
-                        <td class="table-center">Java</td>
-                        <td>This program simulates the operation of a restaurant. Customers, cooks, and the machines
-                            that make the food are all separate, threaded actors that implement the
-                            <span style="font-family:'Courier New', Courier, monospace">Runnable</span> interface.
-                            Customers enter the restaurant and place an order. The order is taken by cooks and
-                            processed using the machines, before finally being returned to the customer. The system
-                            handles numerous customers, cooks, and machines all operating simultaneously.
-                        </td>
-                        <td>Java multithreading, including synchronized blocks, semaphores, etc.</td>
-                    </tr>
-                    <tr>
-                        <td>Akka Resource Management System</td>
-                        <td class="table-center">Java</td>
-                        <td>A program which uses the Akka library to manage actors and their abilities to access
-                            resources in a simulated distributed environment. Resources are typically something like
-                            a printer, and actors can access and use them using message-passing.
-                        </td>
-                        <td>Use of Akka and general actor-based concurrency concepts.</td>
-                    </tr>
-                    <tr>
-                        <td>Conway's Game of Life with MPI</td>
-                        <td class="table-center">C</td>
-                        <td>This program uses the OpenMPI library to create a parallelized version of
-                            <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of
-                                Life</a>. Each row of the grid space is run by a different processor, and they use
-                            message-passing to communicate data with one another. I used pthreads for C multithreading
-                            in an earlier project, but this was my first experience with MPI.
-                        </td>
-                        <td>Use of the OpenMPI library.</td>
-                    </tr>
-                </table>
-                <!-- 433 Projects table for small screens -->
-                <!-- Restaurant Simulation small screen table -->
-                <table class="small-screen">
+                <!-- 433 Projects tables: -->
+                <!-- Restaurant Simulation table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Restaurant Simulation</td>
@@ -991,9 +630,9 @@
                         <td>Java multithreading, including synchronized blocks, semaphores, etc.</td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Akka small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Akka table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Akka Resource Management System</td>
@@ -1014,9 +653,9 @@
                         <td>Use of Akka and general actor-based concurrency concepts.</td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- Game of Life MPI small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- Game of Life MPI table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Conway's Game of Life with MPI</td>
@@ -1042,37 +681,8 @@
             </section>
             <section>
                 <h2>CMSC420: Advanced Data Structures (Spring 2021)</h2>
-                <!-- 420 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Traveling Salesperson Tours</td>
-                        <td class="table-center">Java</td>
-                        <td>A program which manages tours for the
-                            <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Traveling Salesperson
-                            Problem</a>. Three primary data structures are used. First, the tour itself is simply
-                            stored in an ArrayList, though it's in a class which features several utilities. A
-                            slightly modified AA tree is used to map location names to their index within a tour,
-                            which makes looking them up more efficient. Finally, the spatial data, the actual
-                            <i>coordinates</i> at which locations are located, is stored in a Wrapped K-D Tree. The
-                            Tour and WKDTree classes were written by me. The AAXTree class was provided by the
-                            instructor. We had implemented one earlier in the semester, but mine had some errors.
-                            <br><br>
-                            This was a very complicated project, by far the most complicated data structure
-                            implementation I've ever done. More details about what exactly this project entailed
-                            can be found
-                            <a href="http://www.cs.umd.edu/class/spring2021/cmsc420-0101/Handouts/prog3.pdf">here</a>.
-                        </td>
-                        <td>Advanced data structure implementation.</td>
-                    </tr>
-                </table>
-                <!-- 420 Projects table for small screens -->
-                <table class="small-screen">
+                <!-- 420 Projects table: -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Traveling Salesperson Tours</td>
@@ -1107,27 +717,8 @@
             </section>
             <section>
                 <h2>CMSC421: Introduction to Artificial Intelligence (Fall 2021)</h2>
-                <!-- 421 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Maze Solver with Genetic Algorithm</td>
-                        <td class="table-center">Python</td>
-                        <td>This program involved creating a fitness function for a genetic algorithm, which results
-                            in evolving a set of rules for solving a simple 2D maze. This was my first exposure to
-                            genetic algorithms as well as my first time using Python in years. So it was a learning
-                            experience in more ways than one.
-                        </td>
-                        <td>Basic Python programming, use of genetic algorithms.</td>
-                    </tr>
-                </table>
-                <!-- 421 Projects table for small screens -->
-                <table class="small-screen">
+                <!-- 421 Projects table: -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Maze Solver with Genetic Algorithm</td>
@@ -1152,34 +743,8 @@
             </section>
             <section>
                 <h2>CMSC411: Computer Systems Architecture (Fall 2021)</h2>
-                <!-- 411 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Pipelined Processor Simulation</td>
-                        <td class="table-center">C</td>
-                        <td>A simulation of a basic processor with a simple five-stage pipeline. It runs a
-                            simplified MIPS instruction set. The program simulates the registers, as well as both
-                            instruction and data memory, with the program producing actual output based on what the
-                            instructions do. It has a dependency-checking system, which appropriately stalls the
-                            pipeline when necessary.
-                            <br><br>
-                            I think it's safe to say this is the most complex project I'd worked on up to this
-                            point, at least in terms of what it set out to do. It was an exceptionally challenging
-                            project, but also very rewarding, as it not only honed my programming skills, but also
-                            expanded my understanding of how a processor works, even if it only simulates a simple
-                            five-stage pipeline and a basic, integer-only instruction set.
-                        </td>
-                        <td>Deeper understanding of how processors work under the hood.</td>
-                    </tr>
-                </table>
-                <!-- 411 Projects table for small screens -->
-                <table class="small-screen">
+                <!-- 411 Projects table: -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Pipelined Processor Simulator</td>
@@ -1211,60 +776,9 @@
             </section>
             <section>
                 <h2>CMSC424: Database Design (Fall 2021)</h2>
-                <!-- 424 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Advanced SQL Queries</td>
-                        <td class="table-center">SQL (wrapped in Python)</td>
-                        <td>This project was essentially just a set of somewhat complex SQL queries. Things like
-                            temporary tables, PostgreSQL functions, triggers, etc.
-                            <br><br>
-                            <i>Note: All projects for this course were done on virtual machines, with databases
-                                being run with PostgreSQL. I no longer have access to the VMs, I only have the
-                                source files. None of the code for this course will actually be able to run, because
-                                the databases can't be accessed anymore.
-                            </i>
-                        </td>
-                        <td>Use of SQL.</td>
-                    </tr>
-                    <tr>
-                        <td>JDBC</td>
-                        <td class="table-center">Java</td>
-                        <td>This project uses the JDBC API to execute SQL queries. Essentially lets you execute SQL
-                            using Java.
-                        </td>
-                        <td>Use of JDBC.</td>
-                    </tr>
-                    <tr>
-                        <td>B+ Tree Implementation</td>
-                        <td class="table-center">Python</td>
-                        <td>For this project, I had to implement the redistribute function for a B+ Tree. Despite
-                            that being the only functionality I had to implement, I probably struggled more with
-                            this project than just about any other project during my time at UMD. Part of that was my
-                            then-unfamiliarity with Python, and part of it was the nonexistent documentation for this
-                            project. If anything, this project taught me more about the importance of thorough
-                            documentation than it did anything about data structures or databases.
-                        </td>
-                        <td>Data structure implementation, basic Python programming, and a lesson on the importance of
-                            documentation.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MongoDB and Spark Queries</td>
-                        <td class="table-center">MongoDB and Spark (wrapped in Python)</td>
-                        <td>A set of queries on databases using the MongoDB and Spark APIs.</td>
-                        <td>Use of MongoDB and Spark.</td>
-                    </tr>
-                </table>
-                <!-- 424 Projects table for small screens -->
-                <!-- Advanced SQL small screen table -->
-                <table class="small-screen">
+                <!-- 424 Projects tables: -->
+                <!-- Advanced SQL table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Advanced SQL Queries</td>
@@ -1290,9 +804,9 @@
                         <td>Use of SQL.</td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- JDBC small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- JDBC table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">JDBC</td>
@@ -1312,9 +826,9 @@
                         <td>Use of JDBC.</td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- B+ Tree small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- B+ Tree table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">B+ Tree Implementation</td>
@@ -1340,9 +854,9 @@
                         </td>
                     </tr>
                 </table>
-                <br class="small-screen">
-                <!-- MongoDB and Spark small screen table -->
-                <table class="small-screen">
+                <br>
+                <!-- MongoDB and Spark table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">MongoDB and Spark Queries</td>
@@ -1363,43 +877,9 @@
             </section>
             <section>
                 <h2>CMSC425: Game Programming (Spring 2022)</h2>
-                <!-- 425 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Mob Hunt</td>
-                        <td class="table-center">C# (in the context of Unity development)</td>
-                        <td>A group project in which I worked with one other person to create a video game called Mob
-                            Hunt. In the game, the player traverses levels and sets off traps in order to kill enemies.
-                            There are three kinds of enemies, each of which behave somewhat differently. There is a
-                            fairly robust AI system, in which enemies can move between patrol, pursuit, and search
-                            states.
-                            <br><br>
-                            As mentioned, this was a group project. It should be noted that all art assets came from
-                            <a href="https://www.kenney.nl/">Kenney</a>, a website that provides free assets for games.
-                            I am not an artist. I was responsible for creating animation for those 3D models, however.
-                            This was done with a simple sine wave moving limbs back and forth, resulting in
-                            Minecraft-esque animations. I also implemented player movement, camera movement (which
-                            includes a system for turning objects between the player and camera transparent), enemy
-                            AI, parts of the interface, and one of the two levels. Everything else, including the game
-                            concept itself, was done by my teammate.
-                            <br><br>
-                            I don't think the game ended up being particularly impressive, but it was definitely a
-                            valuable learning experience. We struggled with the concept for the game, so it ended up
-                            changing many times throughout the development cycle. If we'd known what we wanted to do
-                            from the start, the game may have turned out better.
-                        </td>
-                        <td>C# programming, Unity development, working on a team, and project planning.</td>
-                    </tr>
-                </table>
-                <!-- 424 Projects table for small screens -->
-                <!-- Game small screen table -->
-                <table class="small-screen">
+                <!-- 425 Projects table: -->
+                <!-- Game table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Mob Hunt</td>
@@ -1439,58 +919,9 @@
             </section>
             <section>
                 <h2>CMSC435: Software Engineering (Spring 2022)</h2>
-                <!-- 435 Projects table for large screens -->
-                <table class="big-screen">
-                    <tr>
-                        <th>Project Name</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Valuable Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Online Casino</td>
-                        <td class="table-center">Python (using Django framework), HTML, JavaScript</td>
-                        <td>By far the most useful project during my time at UMD, this was a group project in which I
-                            developed a web app along with four other people. We followed Agile principles while
-                            developing the app, including three sprints and roughly twice-weekly scrum meetings (daily
-                            scrum meetings weren't really feasible due to the scale of the project and people's busy
-                            schedules). The first sprint was one week, while the subsequent sprints were two weeks each,
-                            leading to a five-week development cycle. This was perhaps the most valuable part of the
-                            project to me, learning how software is actually developed in the industry. This class also
-                            taught me how to make my code more readable and how to use Git to collaborate, both of which
-                            were applied during the development of this project.
-                            <br><br>
-                            The project itself was Online Casino, a website in which users can deposit and withdraw "money"
-                            in order to gamble in five casino games -- Poker, Blackjack, Craps, Roulette, and Slot
-                            Machines. The first three featured fully-functional multiplayer, while the latter two were
-                            single-player only. Multiplayer was implemented using websockets, something I had never used
-                            before. They ended up being a huge struggle to wrap my head around. Users can sign up, create
-                            accounts, become friends with other users, send links to one another to easily join each
-                            other's games, and chat with one another during the games. There is a spectating system so
-                            people can watch the games unfold without participating. Other minor features include tutorials
-                            for each game and a system to limit the amount of money that can be deposited into your
-                            account each month.
-                            <br><br>
-                            As this was a group project, obviously I was not responsible for everything. One member of our
-                            group had already used Django before, so we tended to follow his lead for just about everything.
-                            I was responsible for implementing the depositing and withdrawing money systems, the tutorials,
-                            the chat system, and the game of Craps.
-                            <br><br>
-                            As mentioned, I think this was the most valuable project I worked on during my time at UMD.
-                            This class and project gave me more exposure to real software engineering practices than every
-                            other class combined.
-                        </td>
-                        <td>Software engineering practices, including meeting with clients (the professor, in this case),
-                            creating user stories to define what the product does, following Agile principles, using Git
-                            to collaborate, and working as part of a team.
-                            <br><br>
-                            Also, Python programming skills and use of the Django framework.
-                        </td>
-                    </tr>
-                </table>
-                <!-- 435 Projects table for small screens -->
-                <!-- Online Casino small screen table -->
-                <table class="small-screen">
+                <!-- 435 Projects table: -->
+                <!-- Online Casino table -->
+                <table>
                     <tr>
                         <th>Name</th>
                         <td class="table-center">Online Casino</td>
