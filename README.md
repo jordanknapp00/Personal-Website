@@ -1,3 +1,3 @@
 # Personal Website
 
-## See my website at [jordanknapp.net](www.jordanknapp.net)!
+## See my website at [jordanknapp.net](http://www.jordanknapp.net)!
