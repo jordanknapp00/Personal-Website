@@ -201,7 +201,10 @@ td {
 
 /* Styling only for desktop/laptop computers */
 @media only screen and (min-width:811px) {
-    
+    section {
+        margin-left:16.5%;
+        margin-right:16.5%;
+    }
 }
 
 /* Styling for tablets */
@@ -212,6 +215,16 @@ td {
         padding-bottom:10px;
         max-width:45vw;
         height:auto;
+    }
+
+    section {
+        margin-left:5%;
+        margin-right:5%;
+    }
+
+    section .home {
+        margin:0;
+        padding:10px;
     }
 }
 
@@ -230,6 +243,11 @@ td {
     .home img {
         max-width:100%;
         height:auto;
+    }
+
+    section {
+        margin:0;
+        padding:10px;
     }
 }
 
@@ -283,14 +301,4 @@ body {
 
 h1, h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-section {
-    margin-left:16.5%;
-    margin-right:16.5%;
-}
-
-section.home {
-    margin:0;
-    padding-left:10px;
 }
