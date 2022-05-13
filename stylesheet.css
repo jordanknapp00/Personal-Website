@@ -35,18 +35,18 @@
     }
     
     .contact {
-        text-align:right;
-        float:left;
+        text-align: right;
+        float: left;
     }
 
     .contact input[type=submit] {
-        width:315px;
-        float:right;
+        width: 315px;
+        float: right;
     }
 
     .contact input[type=text], input[type=email], textarea {
-        width:300px;
-        resize:vertical;
+        width: 300px;
+        resize: vertical;
     }
 }
 
@@ -101,9 +101,9 @@
     }
 
     .contact input, .contact textarea {
-        box-sizing:border-box;
-        float:inline-start;
-        width:89vw;
+        box-sizing: border-box;
+        float: inline-start;
+        width: 89vw;
     }
 }
 
@@ -153,15 +153,15 @@ nav ul li a:hover {
 body {
     margin: 0;
     background-color: #EEEEEE;
-    line-height:1.4;
+    line-height: 1.4;
 }
 
 h1 {
-    font-size:250%;
+    font-size: 250%;
 }
 
 h2 {
-    font-size:175%;
+    font-size: 175%;
 }
 
 h1, h2 {
@@ -169,87 +169,98 @@ h1, h2 {
 }
 
 p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.home ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 .resume-head p {
-    text-align:center;
-    font-size:large;
-    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .resume-head b {
-    font-family:'Times New Roman', Times, serif;
-    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
 }
 
 .resume h2 {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
 
 .resume ul li {
-    list-style-type:circle;
-    font-size:18px;
+    list-style-type: circle;
+    font-size: 18px;
 }
 
 .resume ul ul li {
-    list-style-type:square;
+    list-style-type: square;
 }
 
 table, td, th { 
-    padding:5px;
-    font-size:18px;
+    padding: 5px;
+    font-size: 18px;
 }
 
 table {
-    margin-left:auto;
-    margin-right:auto;
-    border-collapse:collapse;
-    border:4px solid black;
-    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 4px solid black;
+    width: 100%;
 }
 
 td, th {
-    border:2px solid black;
+    border: 2px solid black;
 }
 
 th {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width:12.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 12.5%;
 }
 
 td {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    width:87.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 87.5%;
 }
 
 .table-center {
-    text-align:center;
+    text-align: center;
 }
 
 .contact {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:larger;
+    font-size: larger;
 }
 
 .contact label {
-    padding-right:25px;
+    padding-right: 25px;
 }
 
 .contact textarea {
-    vertical-align:top;
-    font-size:small;
+    vertical-align: top;
+    font-size: small;
 }
 
 .contact input[type=text], input[type=email], textarea {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:large;
-    padding:5px;
-    margin-bottom:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 .contact input[type=submit] {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
