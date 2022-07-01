@@ -158,6 +158,18 @@ nav ul li a:hover {
     color: dimgray;
 }
 
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: dimgray;
+    color: white;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
 body {
     margin: 0;
     background-color: #EEEEEE;
